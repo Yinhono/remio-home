@@ -1,279 +1,172 @@
 {
-  "name": "KASUIEの主页✨",
-  "favicon": "/favicon.ico",
-  "keywords": "remio,rem,mio,C.C.,KASUIEの次元,KASUIE的个人博客,KASUIE,个人主页,主页,个人记录,技术博客,个人生活",
-  "description": "KASUIEの次元，兴趣至上，内容随缘，个人主页",
+  "id": 1,
+  "name": "铃音の次元 Nya~",
+  "favicon": "https://pic.nekoyin.top/file/1746171540528_favicon.ico",
+  "keywords": "铃音 主页",
+  "description": "铃音の次元 Nya~",
+  "domain": "https://nekoyin.top",
   "avatarConfig": {
-    "src": "https://s2.loli.net/2024/06/19/8zlOyDUnGjXeHpi.webp",
-    "size": 150,
+    "src": "https://cdn.nodeimage.com/i/FyMFqIuqG9vJjnpsvk84XE00NgBkdWoH.webp",
+    "size": 110,
     "round": "full",
-    "style": "wave",
-    "hoverAnimate": "top",
+    "style": "glint",
     "hidden": false,
-    "aloneRight": false
+    "aloneRight": false,
+    "hoverAnimate": "top"
   },
   "bgConfig": {
-    "bg": ["https://s2.loli.net/2024/06/21/euQ48saP7UgMyDr.webp"],
-    "mbg": ["https://s2.loli.net/2024/06/21/59b6eRscAvQWHT1.webp"],
-    "bgStyle": "snow",
+    "bg": [
+      "https://cdn.nodeimage.com/i/tYdRMMU1D7nz77l6EsJyb1hJ1z8qKC6w.webp"
+    ],
+    "mbg": [
+      "https://cdn.nodeimage.com/i/28937gQkqqtH0jkzjZoX29jnrXEgbkT2.webp"
+    ],
     "blur": "",
-    "cardOpacity": 0.1,
+    "audio": "",
+    "bgStyle": "sakura",
     "carousel": true,
+    "autoAnimate": false,
+    "cardOpacity": 0.1,
     "carouselGap": 5,
     "transitionTime": 0.7,
-    "transitionStyle": "default",
-    "autoAnimate": false
+    "transitionStyle": "default"
   },
   "globalStyle": {
-    "primaryColor": "#0dbf56",
+    "fonts": [
+      {
+        "src": "/fonts/XiaolaiSC-Regular.ttf",
+        "name": "Xl"
+      }
+    ],
     "theme": "switcher",
-    "weather": true
+    "weather": false,
+    "fallback": null,
+    "primaryColor": "#0dbf56"
   },
   "layoutConfig": {
+    "style": "horizontal",
     "gapSize": "lg",
-    "style": "",
     "istTransition": true
   },
   "subTitle": "https://v1.hitokoto.cn?c=a&c=b&c=c",
   "subTitleConfig": {
-    "typing": true,
-    "loading": "wave",
-    "loopTyping": true,
-    "shadow": false,
-    "typingCursor": true,
-    "showFrom": true,
+    "desc": "名字取自柳永《雨霖铃·寒蝉凄切》，现在还是高二的小萌新，大佬们叫我小铃音就可以啦！;(｡>﹏<｡)",
     "style": "desc",
+    "shadow": false,
+    "typing": true,
+    "content": "Hello，这里是铃音の次元",
+    "loading": "wave",
     "gapDelay": 0.05,
-    "content": "Hello💫，这里是kasuieの主页",
-    "desc": "kasuie是自己胡乱起的，也可以叫我暖暖;已经毕业快两年半了，主要捣鼓一些前端，会点点后端，目标是成为一个温柔的全栈开发，好耶！🥰"
+    "showFrom": true,
+    "loopTyping": true,
+    "typingCursor": true
   },
   "links": [
     {
-      "title": "qq",
-      "color": "#dfba00",
-      "url": "http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=zIvBSvLDRr4MvqFSHcioDwS090ljUYHT&authKey=THHoVVpDZWHfnpZoNf57rDWzwrXmTWtnlN70ljCM6cG9eZ5KTIJcTxrvc7%2B7YdVI&noverify=0&group_code=793752494",
-      "icon": "qq"
-    },
-    {
-      "title": "telegram",
-      "color": "#1da1f2",
-      "url": "https://t.me/PixivLips",
-      "icon": "telegram"
-    },
-    {
-      "title": "github",
-      "color": "#000000",
-      "url": "https://github.com/kasuie",
-      "icon": "github"
-    },
-    {
-      "title": "twitter",
-      "color": "#1da1f2",
-      "url": "https://twitter.com/kasuie3",
-      "icon": "twitter"
-    },
-    {
-      "title": "email",
+      "url": "mailto:zanyzz@msn.com",
+      "icon": "email",
       "color": "#fd3232",
-      "url": "mailto:i@kasuie.cc",
-      "icon": "email"
+      "title": "email"
     },
     {
-      "title": "steam",
-      "color": "#000000",
-      "url": "https://s.team/p/fhwd-fwbn/NWWVGPJV",
-      "icon": "steam"
+      "url": "https://t.me/Rainyin468152",
+      "icon": "telegram",
+      "color": "#1da1f2",
+      "title": "telegram"
     },
     {
-      "title": "bilibili",
+      "url": "https://space.bilibili.com/2048622493",
+      "icon": "bilibili",
       "color": "#0088cc",
-      "url": "https://space.bilibili.com/85447052",
-      "icon": "bilibili"
+      "title": "bilibili"
+    },
+    {
+      "url": "https://github.com/Yinhono",
+      "icon": "github",
+      "color": "#000000",
+      "title": "github"
+    },
+    {
+      "url": "https://www.coolapk.com/u/24686734",
+      "icon": "https://cdn.nodeimage.com/i/9Sl9AAAXzODoayydGwKVs1D7XE5VacIx.webp",
+      "color": "#0F9D58",
+      "title": "coolapk"
+    },
+    {
+      "url": "https://linux.do/u/yinhono/summary",
+      "icon": "https://cdn.nodeimage.com/i/OyWxYG4zIzd0wssb643mQFWdjFoeiHrL.webp",
+      "color": "#F0F0F0",
+      "title": "linuxdo"
+    },
+    {
+      "url": "https://www.nodeseek.com/space/30732",
+      "icon": "https://cdn.nodeimage.com/i/i0K2FLzK6v6Ac91A1uZjxsS7npqbiOWz.png",
+      "color": "#F0F0F0",
+      "title": "nodeseek"
     }
   ],
   "sites": [
     {
-      "icon": "https://cs.kasuie.cc/icons/d5570e8a-a826-47be-91b2-f6949b743111.webp!cover",
-      "title": "KASUIEの次元",
-      "url": "https://kasuie.cc",
-      "desc": "博客主页"
+      "url": "https://blog.nekoyin.top",
+      "desc": "博客主页",
+      "icon": "https://cdn.nodeimage.com/i/LXPPTv9GECCPLZ6Aj8otOA20TePDgYwb.webp",
+      "title": "铃音のblog"
     },
     {
-      "icon": "https://cs.kasuie.cc/icons/1419ac35-0a57-4359-bb2f-55a26fc52bd8.png!cover",
-      "title": "Mio 导航",
-      "url": "https://nav.kasuie.cc",
-      "desc": "Mio 网站导航"
+      "url": "https://pan.nekoyin.top",
+      "desc": "就当留个纪念吧~",
+      "icon": "https://cdn.nodeimage.com/i/RCtA7zL6fFP20H45LeDlbJ2myEZBfxrX.svg",
+      "title": "Openlist"
     },
     {
-      "icon": "https://cs.kasuie.cc/icons/a8cb45a8-c0ec-41e7-ab8f-ff4fe8817230.jpg!cover",
-      "title": "KASUIEのAI",
-      "url": "https://ai.kasuie.cc",
-      "desc": "ChatGPT"
+      "url": "https://oneportal.nekoyin.top",
+      "desc": "Onedrive分身",
+      "icon": "https://cdn.nodeimage.com/i/0QlPzTAMllWMqEyBc4i2kniKhCJvm0Xg.webp",
+      "title": "Oneportal"
     },
     {
-      "icon": "https://cs.kasuie.cc/icons/1419ac35-0a57-4359-bb2f-55a26fc52bd8.png!cover",
-      "title": "KASUIEの库",
-      "url": "https://dist.kasuie.cc",
-      "desc": "网盘挂载程序"
-    },
-    {
-      "icon": "https://cs.kasuie.cc/icons/0d2e7fe7-3cca-4989-9bb4-4a39cee77801.png!cover",
-      "title": "KASUIEの图床",
-      "url": "https://upload.kasuie.cc",
-      "desc": "图床服务"
-    },
-    {
-      "icon": "https://cs.kasuie.cc/icons/d5570e8a-a826-47be-91b2-f6949b743111.webp!cover",
-      "title": "监控服务",
-      "url": "https://status.kasuie.cc/status",
-      "desc": "服务程序监控"
-    },
-    {
-      "icon": "https://cs.kasuie.cc/icons/d5570e8a-a826-47be-91b2-f6949b743111.webp!cover",
-      "title": "KASUIEのDocs",
-      "url": "https://docs.kasuie.cc",
-      "desc": "文档服务"
-    },
-    {
-      "icon": "https://cs.kasuie.cc/icons/a8cb45a8-c0ec-41e7-ab8f-ff4fe8817230.jpg!cover",
-      "title": "杂七杂八",
-      "desc": "阿巴阿巴..."
-    },
-    {
-      "icon": "https://cs.kasuie.cc/icons/1419ac35-0a57-4359-bb2f-55a26fc52bd8.png!cover",
-      "title": "喜好生成表",
-      "url": "https://like.kasuie.cc",
-      "desc": "个人喜好生成表"
-    },
-    {
-      "icon": "https://cs.kasuie.cc/icons/cbc99c37-af7a-440b-ae17-76befb78042c.webp!cover",
-      "title": "KASUIEの次元",
-      "url": "https://hexo.kasuie.cc",
-      "desc": "Hexo版本博客程序"
-    },
-    {
-      "icon": "https://cs.kasuie.cc/icons/d5570e8a-a826-47be-91b2-f6949b743111.webp!cover",
-      "title": "KASUIEの次元",
-      "url": "https://v3.kasuie.cc",
-      "desc": "上版本的博客程序(服务关了"
-    },
-    {
-      "icon": "https://cs.kasuie.cc/icons/cbc99c37-af7a-440b-ae17-76befb78042c.webp!cover",
-      "title": "KASUIEの次元",
-      "url": "https://v2.kasuie.cc",
-      "desc": "早期博客主题(v2)"
-    },
-    {
-      "icon": "https://cs.kasuie.cc/icons/cbc99c37-af7a-440b-ae17-76befb78042c.webp!cover",
-      "title": "KASUIEの次元",
-      "url": "https://v1.kasuie.cc",
-      "desc": "早期博客主题(v1)"
-    },
-    {
-      "icon": "https://cs.kasuie.cc/icons/cbc99c37-af7a-440b-ae17-76befb78042c.webp!cover",
-      "title": "KASUIEの次元",
-      "url": "https://v0.kasuie.cc",
-      "desc": "早期博客主题(v0)"
-    },
-    {
-      "icon": "https://cs.kasuie.cc/icons/2ccc4639-8fea-455f-a3b0-ef8073869f2a.jpg",
-      "title": "KASUIEの导航",
-      "url": "https://pixlips.github.io",
-      "desc": "导航页(beta)"
+      "url": "https://converter.nekoyin.top/",
+      "desc": "喵喵喵？",
+      "icon": "https://cdn.nodeimage.com/i/ShP9wS9VDo5T6Y63u8RLVQTqiLsvXvJD.webp",
+      "title": "订阅转换"
     }
   ],
   "sitesConfig": {
+    "modal": false,
     "hidden": false,
     "cardStyle": "",
-    "hoverBlur": true,
-    "hoverScale": true,
-    "hoverFlip": true,
     "direction": "row",
-    "modal": true,
-    "modalTips": "这里大多都是初学时开发的，算是练手的，技术力不高，看起来也很不好看，算是黑历史，但也算是一段记忆的载体了，所以我想把它保存在此。",
+    "hoverBlur": true,
+    "hoverFlip": true,
+    "modalTips": "",
+    "hoverScale": true,
     "modalTitle": ""
   },
   "socialConfig": {
-    "autoAnimate": true,
+    "ripple": true,
     "loading": "wave",
-    "ripple": true
+    "autoAnimate": true
   },
   "sliders": {
-    "data": [
-      {
-        "title": "JavaScript/TypeScript",
-        "value": 70,
-        "icon": "qq"
-      },
-      {
-        "title": "CSS/CSS3",
-        "value": 70,
-        "icon": "qq"
-      },
-      {
-        "title": "React",
-        "value": 40,
-        "icon": "qq"
-      },
-      {
-        "title": "Vue",
-        "value": 60,
-        "icon": "qq"
-      },
-      {
-        "title": "Next.js",
-        "value": 50
-      },
-      {
-        "title": "Nuxt.js",
-        "value": 20
-      },
-      {
-        "title": "Three.js",
-        "value": 10
-      },
-      {
-        "title": "Node.js",
-        "value": 30
-      },
-      {
-        "title": "Electron",
-        "value": 5
-      },
-      {
-        "title": "Spring Boot",
-        "value": 40
-      },
-      {
-        "title": "Linux",
-        "value": 60
-      },
-      {
-        "title": "Mysql",
-        "value": 55
-      },
-      {
-        "title": "Docker",
-        "value": 45
-      }
-    ],
-    "title": "技能加点",
     "color": "linear-gradient(to right, #ffafbd 0%, #c9ffbf 100%)",
-    "hidden": false,
-    "column": 4
+    "title": "技能加点",
+    "column": 4,
+    "hidden": true
   },
   "footer": {
-    "text": "© 2020 - 2025 By KASUIE",
-    "url": "https://kasuie.cc",
-    "ICP": "ICP备xxxxxxxx号",
-    "MPSICP": "京公网安备xxxxxxxx号",
+    "ICP": "",
+    "url": "nekoyin.top",
+    "text": "© 2025 Rainyin",
     "direction": "col-reverse",
     "isExternal": true
   },
   "resources": {
-    "css": [],
     "js": [],
+    "css": [],
     "bodyHtml": ""
   },
-  "domain": "https://remio-home.vercel.app"
+  "version": "latest",
+  "remark": "null",
+  "created_at": "2025-05-02T15:13:21.327Z",
+  "updated_at": "2025-05-05T12:41:45.113Z"
 }
