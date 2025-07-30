@@ -26,7 +26,9 @@ export function Footer({
     return (
       <Link
         target="_blank"
-        href={`https://beian.mps.gov.cn/#/query/webSearch?code=${match?.[1]}`}
+        href={`https://beian.mps.gov.cn/#/query/webSearch?code=${
+          match?.[1] || ""
+        }`}
         className="flex flex-nowrap items-center gap-1"
       >
         <Image src={"/icons/MPSICP.png"} width={14} height={14} alt="MPSICP" />
@@ -62,15 +64,20 @@ export function Footer({
           ) : (
             <span>{footer?.text}</span>
           )}
-          {footer?.ICP && (
-            <Link
-              href={"https://beian.miit.gov.cn"}
-              target="_blank"
-              className="flex flex-nowrap items-center gap-1"
-            >
-              <span>{footer.ICP}</span>
-            </Link>
-          )}
+          {footer?.ICP &&
+            (() => {
+              const icpNumber = (footer.ICP as string).match(/\d+/)?.[0] || "";
+              const href = `https://icp.gov.moe/?keyword=${icpNumber}`;
+              return (
+                <Link
+                  href={href}
+                  target="_blank"
+                  className="flex flex-nowrap items-center gap-1"
+                >
+                  <span>{footer.ICP}</span>
+                </Link>
+              );
+            })()}
           {footer?.MPSICP && renderMPS(footer.MPSICP)}
         </div>
       )}
