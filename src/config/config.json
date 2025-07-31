@@ -129,6 +129,12 @@
       "desc": "喵喵喵？",
       "icon": "https://cdn.nodeimage.com/i/ShP9wS9VDo5T6Y63u8RLVQTqiLsvXvJD.webp",
       "title": "订阅转换"
+    },
+    {
+      "url": "https://mail.nekoyin.top",
+      "desc": "禁止滥用哦",
+      "icon": "https://cdn.nodeimage.com/i/8G3mv5CCHlo1hIqfcD0jDCngfSIsRYsQ.webp",
+      "title": "临时邮箱"
     }
   ],
   "sitesConfig": {
