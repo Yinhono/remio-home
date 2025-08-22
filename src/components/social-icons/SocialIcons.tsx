@@ -2,7 +2,7 @@
  * @Author: kasuie
  * @Date: 2024-05-22 15:54:06
  * @LastEditors: kasuie
- * @LastEditTime: 2024-06-28 10:14:15
+ * @LastEditTime: 2025-08-22 17:29:07
  * @Description:
  */
 "use client";
@@ -101,8 +101,8 @@ export const SocialIcons = ({
                   <Avatar
                     alt={v.title}
                     src={v.icon}
-                    width={18}
-                    height={18}
+                    width={24}
+                    height={24}
                     className={"rounded-full"}
                   />
                 ) : (

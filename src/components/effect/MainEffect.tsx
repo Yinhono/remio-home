@@ -125,9 +125,9 @@ export function MainEffect({
 
   const isVideo = (url: string) => {
     const lowerCaseUrl = url?.toLowerCase();
-    return videoExtensions.some((extension) =>
-      lowerCaseUrl.endsWith(extension)
-    );
+    if (!lowerCaseUrl) return false;
+    const sourceUrl = lowerCaseUrl.split("?")[0];
+    return videoExtensions.some((extension) => sourceUrl.endsWith(extension));
   };
 
   // 切换播放/暂停状态
