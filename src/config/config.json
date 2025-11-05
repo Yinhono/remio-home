@@ -107,6 +107,12 @@
   ],
   "sites": [
     {
+      "url": "https://status.nekoyin.top",
+      "desc": "服务状态",
+      "icon": "https://cdn.nodeimage.com/i/T7iAajTxJ4EiVaahYHvPxkjFjBhNSyNa.webp",
+      "title": "Yin Status"
+    },
+    {
       "url": "https://blog.nekoyin.top",
       "desc": "博客主页",
       "icon": "https://cdn.nodeimage.com/i/LXPPTv9GECCPLZ6Aj8otOA20TePDgYwb.webp",
