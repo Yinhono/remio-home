@@ -1,9 +1,9 @@
 {
   "id": 1,
-  "name": "铃音の次元 Nya~",
+  "name": "音の次元 Nya~",
   "favicon": "https://pic.nekoyin.top/file/1746171540528_favicon.ico",
-  "keywords": "铃音 主页",
-  "description": "铃音の次元 Nya~",
+  "keywords": "音 主页",
+  "description": "音の次元 Nya~",
   "domain": "https://nekoyin.top",
   "avatarConfig": {
     "src": "https://cdn.nodeimage.com/i/FyMFqIuqG9vJjnpsvk84XE00NgBkdWoH.webp",
@@ -50,11 +50,11 @@
   },
   "subTitle": "https://v1.hitokoto.cn?c=a&c=b&c=c",
   "subTitleConfig": {
-    "desc": "名字取自柳永《雨霖铃·寒蝉凄切》，现在还是高二的小萌新，大佬们叫我小铃音就可以啦！;(｡>﹏<｡)",
+    "desc": "愿我如星君如月，夜夜流光相皎洁",
     "style": "desc",
     "shadow": false,
     "typing": true,
-    "content": "Hello，这里是铃音の次元",
+    "content": "Hello，这里是音の次元",
     "loading": "wave",
     "gapDelay": 0.05,
     "showFrom": true,
@@ -110,7 +110,7 @@
       "url": "https://blog.nekoyin.top",
       "desc": "博客主页",
       "icon": "https://cdn.nodeimage.com/i/LXPPTv9GECCPLZ6Aj8otOA20TePDgYwb.webp",
-      "title": "铃音のblog"
+      "title": "音のblog"
     },
     {
       "url": "https://oneportal.nekoyin.top",
