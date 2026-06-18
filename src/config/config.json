@@ -36,7 +36,7 @@
     "fallback": null,
     "fonts": [
       {
-        "src": "/fonts/huakang.ttf",
+        "src": "/fonts/huakang.woff2",
         "name": "huakang"
       }
     ],
