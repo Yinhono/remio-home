@@ -8,8 +8,6 @@
 import { getConfig } from "@/lib/config";
 import { NextResponse } from "next/server";
 
-export const revalidate = 0;
-
 export const GET = async () => {
   const config = await getConfig();
 

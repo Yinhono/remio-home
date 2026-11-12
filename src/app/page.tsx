@@ -7,16 +7,13 @@
  */
 import { Loader } from "@/components/ui/loader/Loader";
 import { Suspense } from "react";
-import { getConfig, getDbConfig, transformConfig } from "@/lib/config";
+import { getConfig, transformConfig } from "@/lib/config";
 import { MainEffect } from "@/components/effect/MainEffect";
 import { getMotion } from "@/lib/motion";
 import { Footer } from "@/components/layout/Footer";
 import dynamic from "next/dynamic";
 import { Controller } from "@/components/controller/Controller";
 import { Weather } from "@/components/weather/Weather";
-import { pg } from "@/lib/db";
-
-export const revalidate = 0;
 
 const Horizontal = dynamic(
   async () => (await import("@/components/content/Horizontal")).Horizontal

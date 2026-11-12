@@ -80,9 +80,17 @@ export const GET = async (req: NextRequest) => {
       message: "fail",
     });
 
-  return NextResponse.json({
-    data: resWea?.lives?.length && { apiKey: "amap", ...resWea?.lives[0] },
-    success: true,
-    message: "success",
-  });
+  return NextResponse.json(
+    {
+      data: resWea?.lives?.length && { apiKey: "amap", ...resWea?.lives[0] },
+      success: true,
+      message: "success",
+    },
+    {
+      headers: {
+        // 天气按 IP 查，变化慢，边缘缓存 10 分钟，过期后后台再验证 1 小时
+        "Cache-Control": "public, s-maxage=600, stale-while-revalidate=3600",
+      },
+    }
+  );
 };
