@@ -7,74 +7,32 @@
  */
 import { AppConfig, Site } from "@/config/config";
 import { dateFormat } from "@kasuie/utils";
-import { existsSync, readFileSync, writeFileSync } from "fs";
+import { existsSync, readFileSync } from "fs";
 import { join } from "path";
 import { defaultAppConfig } from "./rules";
-import { AppConfigService } from "./service";
 
 export const CONFIG_DIR = process.env.CONFIG_DIR
   ? process.env.CONFIG_DIR
   : join(process.cwd(), "src", "config");
 
-export const IS_DATABASE = !!process.env.PG_DATABASE_URL;
-
 const FILE_NAME = "config.json";
-const Service = new AppConfigService();
 
+// 配置只从 config.json 读，后台写配置已删掉，改配置直接改 json 推代码
 export async function getConfig(throwError: boolean = false) {
-  if (IS_DATABASE) {
-    console.log(
-      "Get Db conifg:",
-      dateFormat(new Date(), "YYYY-MM-DD HH:mm:ss")
-    );
-    const dbConfig = await getDbConfig();
-    return dbConfig || defaultAppConfig;
+  const configPath = join(CONFIG_DIR, FILE_NAME);
+  console.log(
+    "Get File conifg:",
+    configPath,
+    dateFormat(new Date(), "YYYY-MM-DD HH:mm:ss")
+  );
+  if (existsSync(configPath)) {
+    const config = await readFileSync(configPath, "utf-8");
+    return JSON.parse(config) as AppConfig;
   } else {
-    const configPath = join(CONFIG_DIR, FILE_NAME);
-    console.log(
-      "Get File conifg:",
-      configPath,
-      dateFormat(new Date(), "YYYY-MM-DD HH:mm:ss")
-    );
-    if (existsSync(configPath)) {
-      const config = await readFileSync(configPath, "utf-8");
-      return JSON.parse(config) as AppConfig;
+    if (throwError) {
+      throw new Error(`无法找到配置文件：${configPath}，请检查~`);
     } else {
-      if (throwError) {
-        throw new Error(`无法找到配置文件：${configPath}，请检查~`);
-      } else {
-        return defaultAppConfig;
-      }
-    }
-  }
-}
-
-export async function setConfig(appConfig: AppConfig) {
-  if (IS_DATABASE) {
-    try {
-      const res = await Service.upsertConfig({
-        ...appConfig,
-        version: "latest",
-      });
-      return !!res;
-    } catch (error) {
-      console.log(error, "errro>>");
-      return false;
-    }
-  } else {
-    const appConfigStr = JSON.stringify(appConfig, null, 2);
-    const configPath = join(CONFIG_DIR, FILE_NAME);
-    console.log(
-      "Set File Config>>>",
-      configPath,
-      dateFormat(new Date(), "YYYY-MM-DD HH:mm:ss")
-    );
-    try {
-      writeFileSync(configPath, appConfigStr);
-      return true;
-    } catch (err) {
-      console.error(`写入失败：${err}，请检查~`);
-      return false;
+      return defaultAppConfig;
     }
   }
 }
@@ -159,24 +117,4 @@ export const transformConfig = (appConfig: AppConfig) => {
     staticSites,
     modalSites,
   };
-};
-
-export const mergeConfig = (appConfig: AppConfig) => {
-  return Object.assign({ ...defaultAppConfig }, appConfig);
-};
-
-export const getDbConfig = async (ver: string = "latest") => {
-  try {
-    return await Service.getConfigByVer(true, ver);
-  } catch (error) {
-    const { code } = (error as Record<string, any>) || {};
-    if (code === "42703") {
-      Service.syncTable();
-    } else if (code === "42P01") {
-      Service.syncTable(true);
-    } else {
-      console.log("error>>>", error);
-    }
-    return null;
-  }
 };

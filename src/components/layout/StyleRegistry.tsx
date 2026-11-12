@@ -20,6 +20,7 @@ export default function StyleRegistry() {
         format("woff2");
       font-weight: normal;
       font-style: normal;
+      font-display: swap;
     }
   `;
   let { fonts, fallback } = appConfig.globalStyle || {};
@@ -34,6 +35,7 @@ export default function StyleRegistry() {
                 src: url("${curr?.src}");
                 font-weight: normal;
                 font-style: normal;
+                font-display: swap;
             }
             ${prev}
         `;
