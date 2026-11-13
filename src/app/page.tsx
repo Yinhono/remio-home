@@ -13,7 +13,6 @@ import { getMotion } from "@/lib/motion";
 import { Footer } from "@/components/layout/Footer";
 import dynamic from "next/dynamic";
 import { Controller } from "@/components/controller/Controller";
-import { Weather } from "@/components/weather/Weather";
 
 const Horizontal = dynamic(
   async () => (await import("@/components/content/Horizontal")).Horizontal
@@ -57,7 +56,6 @@ export default async function Home() {
         </Loader>
       }
     >
-      {globalStyle?.weather && <Weather size={18} />}
       {renderMain({
         ...others,
         footers,

@@ -37,7 +37,6 @@ export const defaultAppConfig: AppConfig = {
     primaryColor: "#229fff",
     fallback: "",
     fonts: [],
-    weather: false,
   },
   layoutConfig: {
     gapSize: "md",

@@ -39,8 +39,7 @@
         "src": "/fonts/huakang.woff2",
         "name": "huakang"
       }
-    ],
-    "weather": false
+    ]
   },
   "layoutConfig": {
     "style": "horizontal",

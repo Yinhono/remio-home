@@ -140,7 +140,6 @@ interface GlobalStyle {
   fallback?: string;
   primaryColor?: string;
   theme?: string;
-  weather?: boolean;
 }
 
 interface Resources {
