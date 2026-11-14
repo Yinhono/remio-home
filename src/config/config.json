@@ -5,7 +5,7 @@
   "description": "音の次元 Nya~",
   "domain": "https://nekoyin.com",
   "avatarConfig": {
-    "src": "https://cdn.nodeimage.com/i/71CsjPe3KwUr5YYT2f2Sez3xr0IQyhkd.webp",
+    "src": "https://cdn.nodeimage.com/i/v43kGiCZxmYradqtoGfX1m2aicdCuGYX.webp",
     "size": 110,
     "round": "full",
     "style": "glint",
@@ -82,7 +82,7 @@
     },
     {
       "url": "https://www.coolapk.com/u/24686734",
-      "icon": "https://cdn.nodeimage.com/i/X2R8faveS87oS4tf4opSpJ8cEN1bllD0.webp",
+      "icon": "https://cdn.nodeimage.com/i/RbeEYyJLzvL6f5bg6NUWdwRnTD8FGmfU.webp",
       "color": "#F0F0F0",
       "title": "coolapk"
     },
@@ -99,10 +99,10 @@
       "title": "nodeseek"
     },
     {
-      "title": "ncm",
-      "color": "#F0F0F0",
+      "url": "https://y.music.163.com/m/user?id=4049990803",
       "icon": "https://cdn.nodeimage.com/i/Vop3ifWnb90KR58qMRnYmI3diIgNHULo.webp",
-      "url": "https://y.music.163.com/m/user?id=4049990803"
+      "color": "#F0F0F0",
+      "title": "ncm"
     }
   ],
   "sites": [
@@ -170,5 +170,5 @@
   "version": "latest",
   "remark": "null",
   "created_at": "2025-10-29T21:10:21.327Z",
-  "updated_at": "2025-05-05T12:41:45.113Z"
+  "updated_at": "2026-11-14T12:41:45.113Z"
 }
