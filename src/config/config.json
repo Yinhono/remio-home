@@ -5,7 +5,7 @@
   "description": "音の次元 Nya~",
   "domain": "https://nekoyin.com",
   "avatarConfig": {
-    "src": "https://cdn.nodeimage.com/i/v43kGiCZxmYradqtoGfX1m2aicdCuGYX.webp",
+    "src": "https://img.nekoyin.com/i/2tjvhcrfr428.webp",
     "size": 110,
     "round": "full",
     "style": "glint",
@@ -15,10 +15,10 @@
   },
   "bgConfig": {
     "bg": [
-      "https://cdn.nodeimage.com/i/SXUjhXjAvdQvPSwPunsuLVCKSem7fnAB.webp"
+      "https://img.nekoyin.com/i/ladksx22bftc.webp"
     ],
     "mbg": [
-      "https://cdn.nodeimage.com/i/vatbhOLj6KxmZz4Y6VbmLLiVqCPDdlUg.webp"
+      "https://img.nekoyin.com/i/30id3bhnekyy.webp"
     ],
     "blur": "",
     "audio": "",
@@ -82,25 +82,25 @@
     },
     {
       "url": "https://www.coolapk.com/u/24686734",
-      "icon": "https://cdn.nodeimage.com/i/RbeEYyJLzvL6f5bg6NUWdwRnTD8FGmfU.webp",
+      "icon": "https://img.nekoyin.com/i/je5eayd7o7jc.webp",
       "color": "#F0F0F0",
       "title": "coolapk"
     },
     {
       "url": "https://linux.do/u/yinhono/summary",
-      "icon": "https://cdn.nodeimage.com/i/eq4TbTZmLUeZphmscf1uZ7zsm7ySXavA.webp",
+      "icon": "https://img.nekoyin.com/i/87kokrdyxd7i.webp",
       "color": "#F0F0F0",
       "title": "linuxdo"
     },
     {
       "url": "https://www.nodeseek.com/space/30732",
-      "icon": "https://cdn.nodeimage.com/i/zlq1yvRzzSV1AHLJvEOFMlBXB51GlKag.webp",
+      "icon": "https://img.nekoyin.com/i/9y2dsqcqf1nd.webp",
       "color": "#F0F0F0",
       "title": "nodeseek"
     },
     {
       "url": "https://y.music.163.com/m/user?id=4049990803",
-      "icon": "https://cdn.nodeimage.com/i/Vop3ifWnb90KR58qMRnYmI3diIgNHULo.webp",
+      "icon": "https://img.nekoyin.com/i/vf66sxkifs58.webp",
       "color": "#F0F0F0",
       "title": "ncm"
     }
@@ -109,25 +109,25 @@
     {
       "url": "https://blog.nekoyin.com/about",
       "desc": "很高兴认识你 :D",
-      "icon": "https://cdn.nodeimage.com/i/VWdKfzU9yITWRxlM9alicq9vTw6LrYHx.webp",
+      "icon": "https://img.nekoyin.com/i/m6ip76hgpz18.webp",
       "title": "自我介绍"
     },
     {
       "url": "https://status.nekoyin.com",
       "desc": "服务状态",
-      "icon": "https://cdn.nodeimage.com/i/AHVh55bCFa5Hw6jbfERl84or7yTp7c7P.webp",
+      "icon": "https://img.nekoyin.com/i/jtub14b6vsun.webp",
       "title": "Yin Status"
     },
     {
       "url": "https://blog.nekoyin.com",
       "desc": "博客主页",
-      "icon": "https://cdn.nodeimage.com/i/ipglsb7hefwMgfdRMe5HbJCMMIhduJ7F.webp",
+      "icon": "https://img.nekoyin.com/i/y0pbsm11te6k.webp",
       "title": "Blog"
     },
     {
       "url": "https://oneportal.nekoyin.com",
       "desc": "Onedrive分身",
-      "icon": "https://cdn.nodeimage.com/i/F2reTJX3gFVOwfIHxT1ZsGUj8EqZtIOq.webp",
+      "icon": "https://img.nekoyin.com/i/a91le43d4vpa.webp",
       "title": "Oneportal"
     }
   ],
