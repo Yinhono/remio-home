@@ -11,6 +11,8 @@ import { clsx } from "@kasuie/utils";
 import { motion } from "framer-motion";
 import { ThemeSwitcher } from "../ui/switcher/ThemeSwitcher";
 import { getMotion, showMotion } from "@/lib/motion";
+import { useTheme } from "next-themes";
+import { useEffect } from "react";
 import dynamic from "next/dynamic";
 
 const MuteSwitcher = dynamic(
@@ -29,13 +31,23 @@ export function Controller({
   hasMedia?: boolean;
   handleMuteUnmute?: Function;
 }) {
+  const { setTheme } = useTheme();
+
+  useEffect(() => {
+    // Touch devices have no hover, so the gear panel is unreachable.
+    // Follow the system theme instead of offering a manual toggle.
+    if (window.matchMedia("(pointer: coarse)").matches) {
+      setTheme("system");
+    }
+  }, []);
+
   const hidden = !hasMedia && theme != "switcher";
 
   return (
     <motion.div
       {...motions}
       className={clsx(
-        "group fixed bottom-6 right-6 z-10 flex cursor-pointer select-none flex-col items-center justify-center gap-2 whitespace-nowrap text-sm text-white/90",
+        "group fixed bottom-6 right-6 z-10 flex cursor-pointer select-none flex-col items-center justify-center gap-2 whitespace-nowrap text-sm text-white/90 [@media(pointer:coarse)]:hidden",
         {
           hidden: hidden,
         }
